@@ -1,0 +1,97 @@
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+nav{
+    padding: 10px;
+    background-color: black;
+}
+
+footer{
+    font-size: 10px;
+    text-align: center;
+    background-color: #333;
+    padding: 10px 0;
+    color: white;
+}
+
+.sect-principal{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    padding: 50px;
+    background-image: url("../img/im2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.caracteristicas{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    background-color: slateblue;
+}
+
+.caracteristica{
+    text-align: center;
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #809E34;
+}
+
+.caracteristica2{
+    text-align: center;
+    width: 30%;
+    padding: 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #6F79B3;
+}
+
+.img-caracteristica1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 2px;
+}
+.ver-mas-button{
+    display: inline-block;
+    background-color: #353C32;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.register-button{
+    display: inline-block;
+    background-color: darkred;
+    color: white;
+    padding: 1px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+.center{
+    text-align: center;
+}
+.bacground{
+
+    background-image: url("../img/img1.jpg");
+}

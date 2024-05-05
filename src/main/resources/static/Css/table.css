@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav{
+    background: #2fcdcd;
+    height: 80px;
+    width: 100%;
+}
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+.logo{
+    height: 40px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top:80px;
+    right: -110%;
+    text-align: left;
+    transition: all .5s;
+    padding-left: 10px;
+}
+nav ul li {
+    display: block;
+    margin: 50px 0px;
+    line-height: 30px;
+}
+
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a.active, li a:hover{
+    background-color: none;
+    color: red;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display:block;
+}
+#check{
+    display: none;
+}
+
+#check:checked ~ ul{
+    right:-80%;
+}
+.bacground{
+    background-image: url("../img/img1.jpg");
+}
+
+.header {
+    display: block;
+    width: 90%; /* Ancho del 90% del contenedor padre */
+    max-width: 1300px; /* Ancho máximo de 1300px */
+    height: 50px;
+    background-color: rgba(173, 216, 230, 0.75);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;/* Centrar horizontalmente */
+    /* Agregar estilos adicionales según sea necesario */
+}
+
+.labelHeader{
+    display: block; /* Esto hace que el div sea visible */
+    width: 300px; /* Puedes ajustar el ancho */
+    height: 25px; /* Puedes ajustar la altura */
+    background-color: rgba(255, 255, 255, 0.75); /* Puedes ajustar el color de fondo */
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+}
+.selectionOption {
+    width: 40%;
+    max-width: 600px;
+    display: block;
+    background-color: rgba(234, 182, 141, 0.75);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+.caracteristicas{
+    width: 90%; /* Ancho del 90% del contenedor padre */
+    max-width: 1300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    background-image: url("../img/im2.jpg");
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caracteristica{
+    text-align: center;
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #809E34;
+}
+
+.caracteristica2{
+    text-align: center;
+    width: 30%;
+    padding: 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #6F79B3;
+}
+
+.img-caracteristica1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 2px;
+}

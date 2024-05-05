@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerrar sesión</title>
+</head>
+<body onload="cerrarSesion()">
+<h1>Cerrando sesión...</h1>
+
+<script>
+    function cerrarSesion() {
+        // Eliminar el token de sesión del almacenamiento local
+        localStorage.removeItem('token');
+        // Redireccionar al usuario a la página de inicio de sesión
+        window.location.href = 'index.html';
+    }
+</script>
+</body>
+</html>
