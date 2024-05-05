@@ -21,7 +21,7 @@ function ProductRegister(){
             storage : storage
         };
 
-        const apiUrl = "http://localhost:8080/inventory"
+        const apiUrl = "http://icm-env.eba-zpadvqnp.us-east-1.elasticbeanstalk.com/inventory"
 
         const requestOptions = {
             method: 'POST',

@@ -42,7 +42,7 @@ function populateTable() {
     });
 }
 
-const url = "http://localhost:8080/inventory";
+const url = "http://icm-env.eba-zpadvqnp.us-east-1.elasticbeanstalk.com/inventory";
 fetchAndPopulateTable(url);
 function findStudent(){
     let findingStudentCode = document.getElementById("productIdentifier").value;
@@ -77,7 +77,7 @@ function populateTableByIdentifier(id){
 }
 
 function deleteProduct(id){
-    const deleteUrl = "http://localhost:8080/inventory/delete?id="+id;
+    const deleteUrl = "http://icm-env.eba-zpadvqnp.us-east-1.elasticbeanstalk.com/inventory/delete?id="+id;
     fetch(deleteUrl,{
         method: 'DELETE',
         headers: {
@@ -161,7 +161,7 @@ function saveStudent(id){
         productIdentifier : productIdentifierCell,
         storage : storageCell
     }
-    const editUrl ="http://localhost:8080/inventory";
+    const editUrl ="http://icm-env.eba-zpadvqnp.us-east-1.elasticbeanstalk.com/inventory";
     const requestOptions = {
         method: 'PUT',
         headers: {
